@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/screen"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="#efefef"
@@ -164,7 +165,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/clr"
-            android:onClick="onDigit"/>
+            android:onClick="onClear"/>
         <Button
             android:id="@+id/btnPlus"
             android:layout_margin="2dp"
